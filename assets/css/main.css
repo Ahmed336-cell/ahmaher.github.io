@@ -2593,6 +2593,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+	
 
 		.image img {
 			display: block;
@@ -2687,6 +2688,19 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1rem;
 		padding-left: 0;
+		
+	}
+	ul.actions1 {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+		margin-left: auto; 
+margin-right: 0;
+		
 	}
 
 		ul.actions li {
@@ -3311,7 +3325,23 @@ input, select, textarea {
 		text-align: center;
 		z-index: 1;
 		min-height: 100vh;
+		left: 0;
+ 
 	}
+	#intro img {
+		max-width: 100%;
+		height: auto;
+		border-radius: 50%; /* Add border-radius for a rounded image */
+		cursor: pointer;
+		position: relative;
+		z-index: 1;
+		object-fit: cover;
+		margin-top: -5%;
+		margin-bottom: 3%;
+
+		
+	}
+	
 
 		#intro input, #intro select, #intro textarea {
 			color: #ffffff;
@@ -3333,6 +3363,7 @@ input, select, textarea {
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
 			color: #ffffff;
+			
 		}
 
 		#intro blockquote {
@@ -3477,11 +3508,14 @@ input, select, textarea {
 					font-size: 3.25rem;
 					line-height: 1.1;
 					margin-bottom: 1rem;
+					color: #fff; /* Set the text color to contrast with the overlay */
 				}
 
 				#intro p {
 					font-size: 1rem;
 					margin-top: 0rem;
+					color: #fff; /* Set the text color to contrast with the overlay */
+
 				}
 
 				#intro .actions {
@@ -3626,6 +3660,7 @@ input, select, textarea {
 		max-width: 72rem;
 		z-index: 2;
 	}
+	
 
 		#nav ul.divided li {
 			border-top-color: #ffffff;
